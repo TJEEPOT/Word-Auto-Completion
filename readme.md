@@ -1,6 +1,8 @@
 # What It Does #
 This project is the basis for word auto-complete system in three parts. The first part is implemented in the DictionaryFinder class, which reads a text file and forms a list of strings, forms a set of words that exist in the document and performs a frequency count on them, sorts the list of words alphabetically and writes the words and frequencies to another text file.
+
 The second part defines a trie data structure in the trie class. This class has methods to load and retrieve words as keys to and from the trie in different ways.
+
 Finally, the third class, AutoCompletion, loads a list of queries (partially completed words) from file and for each one it computes the three most likely words it could form, based on the given dictionary, and outputs them to standard output.
 
 # What I Learned #
